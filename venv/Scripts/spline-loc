@@ -1,0 +1,5 @@
+#!C:\Users\12871\PycharmProjects\untitled1\venv\Scripts\python.exe
+from spline.tools.loc.application import click_main
+
+if __name__ == "__main__":
+    click_main()

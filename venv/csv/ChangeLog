@@ -1,0 +1,210 @@
+2002-11-08 11:43  andrewm
+
+	* dist/release-1.0pre1: Added section on changed quote handling to
+	release note.  
+
+2002-11-08 11:40  djc
+
+	* dist/dist-csv.sh: Added script to perform distribution process.  
+
+2002-11-08 11:14  djc
+
+	* csv.c, setup.py, dist/release-1.0pre1: More work towards the next
+	release.  
+
+2002-11-04 15:44  djc
+
+	* csv.c: Changed int members back to char.  Improved module
+	docstring.  
+
+2002-11-04 15:33  djc
+
+	* csv.c: Latest and greatest attempt to get pydoc csv acceptable.  
+
+2002-11-04 12:57  djc
+
+	* csv.c: First attempt at release ready code.  
+
+2002-10-04 22:47  andrewm
+
+	* csv.c, setup.py, test.py: 
+	- Added new attribute "escape_char" - if no quote_char is set, this
+	  will be used to escape special characters in output. On input, an
+	  escape_char will remove the special meaning from the next character.
+	  If the next character is not a special character, both the
+	escape_char and the character are returned.  
+	- Character attributes can now be set to "None", which disables that 
+	  functionality (for instance, quote_char set to None removes their
+	  special meaning on input, and will suppress the use of quotes for
+	  escaping special characters on output.  
+	- join_append has grown overly complicated - the chances of
+	  mis-calculating the required buffer size are growing, so I've added
+	  an assertion to the end of the function to pick up this situation.
+	The whole function needs a rethink.  
+	- Cleaned up Parser_setattr handling of single character arguments,
+	  added to comment about T_CHAR bug (still exists in old Pythons, so
+	  retaining work-around for time being).  
+	- Added a bunch more unittests for new functionality (and a few
+	  tests for old functionality that were missing). Generic output test
+	  function handles options better.  
+
+2002-10-04 18:00  andrewm
+
+	* test.py: 
+	- make test script use local build directory, if populated, rather
+	  than the installed version (so you can test before installing!) 
+
+2002-10-03 14:37  djc
+
+	* test.py: Added special test for Tim Churches: 
+	    "this is not" a quoted field,"this is" 
+
+2002-09-19 14:54  andrewm
+
+	* csv.c, setup.py: 
+	- Bumped version number to 1.0 (was 0.6) - should have been done
+	long ago.  
+	- Changed contact e-mail address to csv@object-craft.com.au 
+
+2002-09-19 14:44  andrewm
+
+	* csv.c: 
+	- make join()'s behaviour vaguely sensible if ms_double_quote is
+	false (sigh).  
+
+2002-09-19 14:41  andrewm
+
+	* csv.c: Make join() honour ms_double_quote 
+
+2002-09-19 14:32  andrewm
+
+	* csv.c, test.py: 
+	- the quote character is now an attribute of the parser object -
+	  "quote_char", with a default of the double quote character '"'.  
+	- excel only treats the quote character as special if it appears as
+	  the first character on a line - changed our parser to behave this
+	  way, in the process removed two states from the parser.  
+	- cleaned up the docstring for the parser object 
+	- added more tests (for new functionality and based on testing Excel
+	  97 behaviour).  
+
+2002-09-19 13:13  andrewm
+
+	* MANIFEST.in: 
+	- include test.py in MANIFEST 
+
+2002-09-19 12:28  andrewm
+
+	* test.py: 
+	- Added comment with pointer to pyunit for old python versions that
+	  didn't include it.  
+
+2002-09-19 12:26  andrewm
+
+	* test.py: 
+	- fixes to allow the tests to run with python 1.5.2 
+
+2002-09-17 15:41  andrewm
+
+	* csv.c, test.py: 
+	- bugfix - csv.parser().join() wasn't quoting fields with embedded
+	newlines.  
+	- added more tests 
+
+2002-09-17 15:22  andrewm
+
+	* test.csv, test.py: Replaced rudementary test.py script with some
+	real unit tests.  
+
+2002-09-08 20:02  djc
+
+	* ChangeLog: Start distributing the ChangeLog.  
+
+2002-09-08 19:54  djc
+
+	* LICENCE, MANIFEST.in, csv.c, setup.py: Prepare of 0.6 release.  
+
+2002-09-08 19:21  djc
+
+	* csv.c: PyMem_Malloc/PyMem_Realloc fixes from
+	clee@spiralis.merseine.nu.  
+
+2002-08-20 10:59  djc
+
+	* csv.c, setup.py: Bump release.  
+
+2002-08-20 10:57  djc
+
+	* csv.c: Added strict option to parser - turned off by default.  
+
+2002-07-28 16:10  djc
+
+	* csv.c: Added .join() None handling which adds '' instead of
+	'None'.  Thanks to David Lindes <lindes@daveltd.com> for that one.  
+
+2002-01-07 23:58  djc
+
+	* csv.c: Don't need to quote fields which include spaces.  
+
+2001-11-06 14:44  djc
+
+	* csv.c: Bump revision.  
+
+2001-11-06 14:39  djc
+
+	* csv.c: Removed warning.  
+
+2001-09-04 20:30  djc
+
+	* TODO: Initial version.  
+
+2001-07-19 12:50  djc
+
+	* csv.c: Segfault with large increments in join size.  
+
+2001-07-12 12:14  djc
+
+	* csv.c: Added comment.  
+
+2001-07-12 11:49  djc
+
+	* csv.c: Fixed exception string leak.  Added auto_clear flag.  
+	Fixed '12,12,1",' parse bug.  
+
+2001-06-17 23:03  djc
+
+	* csv.c: Now compiles on NT.  
+
+2001-06-17 22:10  djc
+
+	* csv.c: Fixup for windows.  
+
+2001-06-17 21:58  djc
+
+	* setup.py: Oops - forgot to bump revision.  
+
+2001-05-25 20:49  djc
+
+	* Makefile.pre.in, Setup.in, setup.py: Convert to distutils.  
+
+2001-01-27 15:15  djc
+
+	* csv.c: Oops - forgot to use field_sep in join().  
+
+2001-01-27 15:14  djc
+
+	* csv.c, test.py: Added parser.field_sep.  Added Parser.join().  
+
+2000-10-27 10:56  djc
+
+	* csv.c: Ben is a legend - I am a loser.  
+
+2000-10-27 10:48  djc
+
+	* csv.c: Put braces around bogus Py_XDECREF macro use.  
+
+2000-10-07 16:48  djc
+
+	* Makefile.pre.in, Setup.in, csv.c, test.csv, test.py: Initial
+	version.  
+
