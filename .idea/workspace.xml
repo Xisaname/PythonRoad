@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31f36347-246b-4889-a7eb-6cc93cd205a6" name="Default Changelist" comment="" />
+    <list default="true" id="31f36347-246b-4889-a7eb-6cc93cd205a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Include/nc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/nc.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZTlncvcSfsbNNGaQCuKhII1BiO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,8 +30,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/csv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -43,11 +53,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12871\PycharmProjects\PythonRoad\venv\Include" />
       <recent name="C:\Users\12871\PycharmProjects\untitled1\venv\csv" />
       <recent name="C:\Users\12871\PycharmProjects\untitled1\venv\Directionary" />
       <recent name="C:\Users\12871\PycharmProjects\untitled1\venv\Include" />
       <recent name="C:\Users\12871\PycharmProjects\untitled1\venv\Lib" />
-      <recent name="C:\Users\12871\PycharmProjects\untitled1\venv\nc_file" />
     </key>
   </component>
   <component name="RunManager" selected="Python.nc">
@@ -195,6 +205,7 @@
       <workItem from="1584870581631" duration="222000" />
       <workItem from="1584871140418" duration="4427000" />
       <workItem from="1584876451800" duration="1572000" />
+      <workItem from="1584882827283" duration="1095000" />
     </task>
     <servers />
   </component>
@@ -202,26 +213,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="182" key="GridCell.Tab.0.bottom" timestamp="1584876344613">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584883342033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584876344613" />
-    <state width="1493" height="182" key="GridCell.Tab.0.center" timestamp="1584876344613">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584883342033" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1584883927894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584876344613" />
-    <state width="1493" height="182" key="GridCell.Tab.0.left" timestamp="1584876344613">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584883927894" />
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1584883929507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584876344613" />
-    <state width="1493" height="182" key="GridCell.Tab.0.right" timestamp="1584876344613">
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584883929507" />
+    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1584883929506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584876344613" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1584875317713">
+    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584883929506" />
+    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1584883929506">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584875317713" />
+    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584883929506" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1584883929506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584883929506" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1584883245325">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584883245325" />
     <state x="447" y="11" width="642" height="801" key="find.popup" timestamp="1584880080848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -235,6 +254,7 @@
     <SUITE FILE_PATH="coverage/untitled1$00.coverage" NAME="00 Coverage Results" MODIFIED="1583390499663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/untitled1$_pydev_execfile.coverage" NAME="_pydev_execfile Coverage Results" MODIFIED="1583033169248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps" />
     <SUITE FILE_PATH="coverage/untitled1$json1__1_.coverage" NAME="json1 (1) Coverage Results" MODIFIED="1584876257180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/PythonRoad$nc.coverage" NAME="nc Coverage Results" MODIFIED="1584883268224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/untitled1$nc.coverage" NAME="nc Coverage Results" MODIFIED="1584879674895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/untitled1$First.coverage" NAME="First Coverage Results" MODIFIED="1584620924649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/untitled1$json.coverage" NAME="json Coverage Results" MODIFIED="1584875611074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
